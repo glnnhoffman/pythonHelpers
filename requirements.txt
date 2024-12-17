@@ -6,3 +6,7 @@ azure.data.tables
 azure.storage.blob
 pathlib>=1.0.1
 python-dotenv>=1.0.1
+geopandas>=0.10.2
+matplotlib>=3.4.3
+folium>=0.12.1
+fuzzywuzzy>=0.18.0

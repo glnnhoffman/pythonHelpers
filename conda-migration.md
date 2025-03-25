@@ -62,6 +62,31 @@ If you need Jupyter support (previously handled by Conda):
 pip install jupyterlab
 ```
 
+### Option B: Install from pyproject.toml
+If your project uses a `pyproject.toml` file (e.g., with Poetry or Hatch):
+
+#### Using Poetry
+1. Install Poetry:
+   ```sh
+   pip install poetry
+   ```
+2. Install dependencies:
+   ```sh
+   poetry install
+   ```
+
+#### Using Hatch
+1. Install Hatch:
+   ```sh
+   pip install hatch
+   ```
+2. Install dependencies:
+   ```sh
+   hatch env create
+   ```
+
+> Make sure you're in your project directory with a valid `pyproject.toml` before running these commands.
+
 ---
 
 ## Step 5: Set Up VS Code for the Virtual Environment
